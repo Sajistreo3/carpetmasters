@@ -912,7 +912,7 @@ section,
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 25%,
-    rgba(0, 0, 0, 0.9) 75%
+    rgba(0, 0, 0, 0.6) 75%
   );
   z-index: 2;
 }
