@@ -655,8 +655,6 @@ h6 {
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # Call Button
 --------------------------------------------------------------*/
@@ -701,22 +699,18 @@ h6 {
 @-webkit-keyframes cc-calto-action-ripple {
   0% {
     -webkit-box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 0 rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
+      0 0 0 0 rgba(16, 104, 219, 0.2), 0 0 0 5px rgba(16, 104, 219, 0.2),
       0 0 0 10px rgba(16, 104, 219, 0.2);
     box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 0 rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
+      0 0 0 0 rgba(16, 104, 219, 0.2), 0 0 0 5px rgba(16, 104, 219, 0.2),
       0 0 0 10px rgba(16, 104, 219, 0.2);
   }
   100% {
     -webkit-box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
-      0 0 0 10px rgba(16, 104, 219, 0.2),
+      0 0 0 5px rgba(16, 104, 219, 0.2), 0 0 0 10px rgba(16, 104, 219, 0.2),
       0 0 0 20px rgba(16, 104, 219, 0);
     box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
-      0 0 0 10px rgba(16, 104, 219, 0.2),
+      0 0 0 5px rgba(16, 104, 219, 0.2), 0 0 0 10px rgba(16, 104, 219, 0.2),
       0 0 0 20px rgba(16, 104, 219, 0);
   }
 }
@@ -724,26 +718,21 @@ h6 {
 @keyframes cc-calto-action-ripple {
   0% {
     -webkit-box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 0 rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
+      0 0 0 0 rgba(16, 104, 219, 0.2), 0 0 0 5px rgba(16, 104, 219, 0.2),
       0 0 0 10px rgba(16, 104, 219, 0.2);
     box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 0 rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
+      0 0 0 0 rgba(16, 104, 219, 0.2), 0 0 0 5px rgba(16, 104, 219, 0.2),
       0 0 0 10px rgba(16, 104, 219, 0.2);
   }
   100% {
     -webkit-box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
-      0 0 0 10px rgba(16, 104, 219, 0.2),
+      0 0 0 5px rgba(16, 104, 219, 0.2), 0 0 0 10px rgba(16, 104, 219, 0.2),
       0 0 0 20px rgba(16, 104, 219, 0);
     box-shadow: 0 4px 10px rgba(16, 104, 219, 0.2),
-      0 0 0 5px rgba(16, 104, 219, 0.2),
-      0 0 0 10px rgba(16, 104, 219, 0.2),
+      0 0 0 5px rgba(16, 104, 219, 0.2), 0 0 0 10px rgba(16, 104, 219, 0.2),
       0 0 0 20px rgba(16, 104, 219, 0);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Scroll Top Button
@@ -889,7 +878,6 @@ section,
   font-size: 48px;
   font-weight: 700;
 }
-
 
 .hero h2 {
   margin: 0;
@@ -1299,9 +1287,14 @@ section,
 .testimonials {
   padding: 80px 0;
   position: relative;
+  background-image: url(../img/carpetbanner.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.testimonials .testimonials-bg {
+/* .testimonials .testimonials-bg {
   position: absolute;
   inset: 0;
   display: block;
@@ -1309,7 +1302,7 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
-}
+} */
 
 .testimonials .container {
   position: relative;
